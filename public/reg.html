@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-widht,initial-scale=1">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <link rel="stylesheet" href="CSS/zhuce.css">
+</head>
+<body>
+<div class="container">
+    <div class="denglu">
+        <div class="denglujiemian">
+            <form action="/user/reg" method="post">
+                <div class="pname">
+                    <b>账号：</b> <input type="text" name="uname" placeholder="请输入用户名">
+                </div>
+                <div class="pwsd">
+                    <b>密码：</b> <input type="password" name="upwd" placeholder="请输入密码">
+                </div>
+                <div class="dengluanniu">
+                    <input type="submit" class="btn btn-warning" value="注册">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="js/common.js"></script>
+<!--<script>-->
+    <!--document.getElementById('reg1').onclick=function(){-->
+        <!--var xhr=createXhr();-->
+        <!--xhr.onreadystatechange=function(){-->
+            <!--if(xhr.readyState==4&&xhr.status==200){-->
+                <!--var res=xhr.responseText;-->
+            <!--}-->
+        <!--};-->
+        <!--var uname=$('uname').value;-->
+        <!--var upwd=$('upwd').value;-->
+
+        <!--xhr.open('post','/user/reg','true');-->
+        <!--xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');-->
+        <!--var formdata='uname='+uname+'&upwd='+upwd;-->
+        <!--xhr.send(formdata);-->
+    <!--}-->
+<!--</script>-->
+</body>
+</html>

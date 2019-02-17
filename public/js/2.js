@@ -1,0 +1,18 @@
+$('#d1').hover(function(){
+    $(this).toggleClass('hover');
+});
+$('#d2').hover(function(){
+    $(this).toggleClass('hover');
+});
+$('#d3').hover(function(){
+    $(this).toggleClass('hover');
+});
+$('#d4').hover(function(){
+    $(this).toggleClass('hover');
+});
+$('#d5').hover(function(){
+    $(this).toggleClass('hover');
+});
+$('#d6').hover(function(){
+    $(this).toggleClass('hover');
+});

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-widht,initial-scale=1">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <link rel="stylesheet" href="CSS/sigin.css">
+    <script src="js/common.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="denglu">
+        <div class="denglujiemian">
+            <form action="/user/login" method="post">
+            <div class="pname">
+               <b>账号：</b> <input type="text" placeholder="请输入用户名" name="uname">
+            </div>
+            <div class="pwsd">
+                <b>密码：</b> <input type="password" placeholder="请输入密码" name="upwd">
+            </div>
+                <div class="dengluanniu">
+                    <button type="submit" class="btn btn-info">登录</button>
+                    <button class="btn btn-warning">
+                        <a href="http://127.0.0.1/CL/BootProject/1/public/reg.html">注册</a>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!--<script>-->
+    <!--function login(){-->
+        <!--var xhr=createXhr();-->
+        <!--xhr.onreadystatechange=function(){-->
+            <!--if(xhr.readyState==4&&xhr.status==200){-->
+                <!--var res=xhr.responseText;-->
+            <!--}-->
+        <!--};-->
+        <!--var uname=$('uname').value;-->
+        <!--var upwd=$('upwd').value;-->
+
+        <!--xhr.open('post','/mypro/login','true');-->
+        <!--xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');-->
+        <!--var formdata='uname='+uname+'&upwd='+upwd;-->
+        <!--xhr.send(formdata);-->
+    <!--}-->
+<!--</script>-->
+</body>
+</html>
